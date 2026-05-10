@@ -14,32 +14,43 @@
 </head>
 
 <body>
+
     <header>
-  <h1>My Website</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="content-box">
-        <h3>WEBSIVUSTON KEHITTÄMINEN</h3>
-        <p>Workshop 4: Page Layout Techniques</p>
-    </div>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <h1>WEBSIVUSTON KEHITTÄMINEN</h1>
+            <p>Workshop 4: Page Layout Techniques</p>
+        </div>
+
         <h1 style="color: red;">Moikka!</h1>
         <h1>Sonjan omat sivut</h1>
-        <p>Opiskelen Laurea-ammattikorkeakoulussa tradenomiksi, tietojenkäsittelyä, digitaalisten palveluiden
-            kehittämistä,
-            verkko-opintoina.</p>
+
+        <p>
+            Opiskelen Laurea-ammattikorkeakoulussa tradenomiksi, tietojenkäsittelyä,
+            digitaalisten palveluiden kehittämistä, verkko-opintoina.
+        </p>
+
         <img src="./images/sonjafb.jpg" alt="Sonja" class="filter-image">
+
         <h2>Harrastukset</h2>
         <ol>
             <li>Metsäkävelyt</li>
             <li>Pickleball</li>
             <li>Jumppa</li>
         </ol>
+
         <a href="https://tilantuntu.fi/">Tilantuntu</a>
+
         <table>
             <tr>
                 <th>Suoritettu</th>
@@ -54,10 +65,11 @@
                 <td>Liiketoimintaympäristöt</td>
             </tr>
             <tr>
-                <td>ICT-infrastruktuuri ja pilvipalveluiden perusteet </td>
+                <td>ICT-infrastruktuuri ja pilvipalveluiden perusteet</td>
                 <td>Professional Communication in English</td>
             </tr>
         </table>
+
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br>
@@ -65,26 +77,23 @@
             <input type="email" id="email" name="email"><br><br>
             <input type="submit" value="Submit">
         </form>
+
         <button class="transition-button">Klikkaa</button>
         <div class="animation-box"></div>
+
         <ul class="pseudo-list">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
             <li>Item 4</li>
         </ul>
-        <blockquote class="quote">
-            Upeeta</blockquote>
-        <main>
-            <section id="about">
-                <h2>About Me</h2>
-                <p>This is a paragraph about me.</p>
-            </section>
-        </main>
 
-        <footer>
-            <p>Copyright 2025</p>
-        </footer>
+        <blockquote class="quote">Upeeta</blockquote>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is a paragraph about me.</p>
+        </section>
 
         <div class="grid-container">
             <div class="grid-item">1</div>
@@ -94,15 +103,32 @@
             <div class="grid-item">5</div>
             <div class="grid-item">6</div>
         </div>
+
         <div class="flex-container">
             <div class="box">Box 1</div>
             <div class="box">Box 2</div>
             <div class="box">Box 3</div>
         </div>
-        <div class="responsive-container">
-      <div class="column left">Column 1</div>
-      <div class="column right">Column 2</div>
-    </div>
-</body>
 
+        <div class="responsive-box">Resize the window to see the effect</div>
+    </main>
+
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+<div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+    <img src="./images/verhot.jpg" alt="Responsive Image" class="responsive-image">
+    <div class="media-query-box">Resize the window to see the effect</div>
+    <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+</body>
 </html>

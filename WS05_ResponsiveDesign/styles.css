@@ -138,7 +138,7 @@ table {
 }
 .responsive-box {
   padding: 20px;
-  text-align: center;
+  text-align: center;   
 }
 
 @media (max-width: 600px) {
@@ -150,6 +150,9 @@ table {
 @media (min-width: 601px) {
   .responsive-box {
     background-color: lightseagreen;
+    width: 400px;
+    height: 200px;
+    font-size: 24px;
   }
 }
 .responsive-container {
@@ -158,7 +161,7 @@ table {
     }
     
     .column {
-      flex: 1 1 50%;
+      flex: 1;
       padding: 10px;
     }
     
@@ -167,3 +170,53 @@ table {
         flex: 100%;
       }
     }
+    .responsive-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+      }
+    }
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+    }
+    .media-query-box {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .media-query-box {
+        background-color: lightcoral;
+      }
+    }
+    
+    @media (min-width: 601px) {
+      .media-query-box {
+        background-color: lightblue;
+      }
+    }
+    .responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+    }
+    
+    @media (max-width: 600px) {
+      .responsive-nav .nav-list {
+        display: none;
+      }
+    
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
+    }
+   
