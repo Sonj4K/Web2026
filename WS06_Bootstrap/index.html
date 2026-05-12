@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonjan sivut</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <h1>WEBSIVUSTON KEHITTÄMINEN</h1>
+            <p>Workshop 4: Page Layout Techniques</p>
+        </div>
+
+        <h1 style="color: red;">Moikka!</h1>
+        <h1>Sonjan omat sivut</h1>
+
+        <p>
+            Opiskelen Laurea-ammattikorkeakoulussa tradenomiksi, tietojenkäsittelyä,
+            digitaalisten palveluiden kehittämistä, verkko-opintoina.
+        </p>
+
+        <img src="./images/sonjafb.jpg" alt="Sonja" class="filter-image">
+
+        <h2>Harrastukset</h2>
+        <ol>
+            <li>Metsäkävelyt</li>
+            <li>Pickleball</li>
+            <li>Jumppa</li>
+        </ol>
+
+        <a href="https://tilantuntu.fi/">Tilantuntu</a>
+
+        <table>
+            <tr>
+                <th>Suoritettu</th>
+                <th>Käynnissä</th>
+            </tr>
+            <tr>
+                <td>Digitaalisten palveluiden perusteet</td>
+                <td>Websivuston kehittäminen</td>
+            </tr>
+            <tr>
+                <td>Asiantuntijaviestintä ja projektityö</td>
+                <td>Liiketoimintaympäristöt</td>
+            </tr>
+            <tr>
+                <td>ICT-infrastruktuuri ja pilvipalveluiden perusteet</td>
+                <td>Professional Communication in English</td>
+            </tr>
+        </table>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <button class="transition-button">Klikkaa</button>
+        <div class="animation-box"></div>
+
+        <ul class="pseudo-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <blockquote class="quote">Upeeta</blockquote>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is a paragraph about me.</p>
+        </section>
+
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+        </div>
+
+        <div class="flex-container">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+        </div>
+
+        <div class="responsive-box">Resize the window to see the effect</div>
+    </main>
+
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+    <div class="responsive-container">
+        <div class="column">Column 1</div>
+        <div class="column">Column 2</div>
+    </div>
+    <img src="./images/verhot.jpg" alt="Responsive Image" class="responsive-image">
+    <div class="media-query-box">Resize the window to see the effect</div>
+    <nav class="responsive-nav">
+        <button class="menu-toggle">☰ Menu</button>
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Valikko</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ylös</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                Yksi
+            </div>
+            <div class="col">
+                Kaksi
+            </div>
+            <div class="col">
+                Kolme
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-secondary" disabled>Button</button>
+    <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="./images/sonjafb.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Testi testi.</p>
+        </div>
+    </div>
+    <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <svg xmlns="http://www.w3.org/2000/svg" class="bi flex-shrink-0 me-2" viewBox="50" role="img"
+            aria-label="Warning:">
+            <path
+                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </svg>
+        <div>
+            An example alert with an icon
+        </div>
+    </div>
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-warning" role="alert">
+        This is a warning alert—check it out!
+    </div>
+    <div class="alert-danger" role="alert">
+        This is a warning alert—check it out!
+    </div>
+
+</body>
+
+</html>
